@@ -10,7 +10,6 @@ namespace NumerosPrimos_Estefany_Pedro
             int numPrueba = 2;
             int numero;
             List<int> factoresP = new List<int>();
-            string input = Console.ReadLine();
             numero = Convert.ToInt32(Console.ReadLine());
 
             while (numero != 1)
@@ -30,6 +29,7 @@ namespace NumerosPrimos_Estefany_Pedro
             {
                 Console.WriteLine(i);
             }
+            Console.ReadLine();
         }
     }
 }
